@@ -5,18 +5,23 @@
 </head>
 
 <body>
-    <div style="background-color: rgb(122, 19, 28);">
-        <h1 style="background-color: rgb(72, 72, 235); width: fit-content;;
-">Personal Data</h1>
+    <legand style="background-color: rgb(72, 72, 235); width: fit-content; padding: 15px 0px; margin-left: 20px;">
+        Personal Data</legand>
 
-        <form action="">
-            <div style="background-color: rgb(203, 206, 60); margin-left: 20px;">
-                <h2 style="background-color: rgb(105, 105, 231); width: fit-content;height: 50px;;">YourName</h2>
+    <fieldset style="background-color: rgb(122, 19, 28);border: none;">
+        <br><br><br><br>
+        <form>
+            <legand
+                style="background-color: rgb(105, 105, 231); width: fit-content; padding: 30px 0px;margin-left: 20px;">
+                YourName</legand>
+
+            <fieldset style="background-color: rgb(203, 206, 60);border: none; ">
+                <br><br>
                 <table>
                     <tr>
                         <td> <label for="fname">first name</label></td>
                         <td>:</td>
-                        <td> <input type="text" id="fname" name="userfirstname" placeholder="ex mostafa"></td>
+                        <td> <input type="text" id="fname" name="userfirstname" placeholder="ex mostafa" autofocus></td>
                     </tr>
                     <tr>
                         <td><label for="lname">second name</label></td>
@@ -26,9 +31,9 @@
 
 
                 </table>
-            </div>
+            </fieldset>
             <br><br><br>
-            <div style="margin-left: 20px;">
+            <fieldset style="border: none;">
                 <table>
                     <tr>
                         <td> <label for="userphone">your phone</label></td>
@@ -85,10 +90,13 @@
                 </select>
                 <br><br>
                 <button type="submit"><img src="img/Submit-botton.png" alt="" width="80px"></button>
+            </fieldset>
+
 
         </form>
-    </div>
-    </div>
+    </fieldset>
+
+
 
 </body>
 
